@@ -190,6 +190,7 @@ line-height: normal;
 /* Footer Section */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     border: 1px solid black;
     margin-top: 100px;
@@ -197,7 +198,26 @@ footer{
     
 
 }
+.footer-column{
+    width: 50%;
 
+}
+.contact ,input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    /* background:#FFF ; */
+    border-radius: 15px;
+    /* border: 1; */
+    width: 90%;
 
+}
+.contact input{
+
+}
+.social-links a{
+    margin-right: 25px;
+}
 
 
