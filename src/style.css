@@ -182,6 +182,21 @@ line-height: normal;
     margin-left: 500px;
     text-align: center;
 }
+/* .download-cv{
+    text-align: center;
+    margin-top: 550px;
+} */
+
+/* Footer Section */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding:130px 200px;
+    
+
+}
 
 
 
