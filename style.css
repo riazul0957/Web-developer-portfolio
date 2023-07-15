@@ -230,7 +230,10 @@ footer{
 @media screen and (max-width:576px){
     body{
         margin: 0px;
-        padding: 5px;
+        
+    }
+    .nav-title{
+        text-align: center;
     }
     .header{
         background-image: none;
