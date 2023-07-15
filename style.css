@@ -177,9 +177,9 @@ line-height: normal;
 }
 .resume-container{
     display: flex;
-    justify-content: space-between;
-    margin-right: 500px;
-    margin-left: 500px;
+    justify-content: space-evenly;
+    /* margin-right: 500px;
+    margin-left: 500px; */
     text-align: center;
 }
 /* .download-cv{
@@ -192,7 +192,7 @@ footer{
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 100px;
     padding:130px 200px;
     
@@ -220,4 +220,75 @@ footer{
     margin-right: 25px;
 }
 
+/* REsponsive Styles */
 
+.hide{
+     display: none;
+}
+
+/* Mobile Devices */
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner .profile-picture{
+        width: 100%;
+    }
+    .banner .profile-picture{
+        margin: 0px 0px 0px 0px;
+
+    }
+    .banner , .skills-container , .resume-container{
+        flex-direction: column;
+
+    }
+    .btn-primary{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .banner-title{
+        font-size: 60px;
+    }
+
+    .banner,
+    #what-i-do-description{
+        
+        padding: 20px;
+        padding-bottom: 0px;
+        
+    }
+    .greeting-title{
+        margin-top: 5px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .section-discription{
+        padding: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .contact{
+        width: 70%;
+    }
+.footer-column{
+    width: 100%;
+}
+    
+}
+
+@media screen and (min-width:576px) (max-width:960px) {
+    /* .skills-container , .resume-container{
+        flex-direction: column;
+
+    } */
+   
+}
