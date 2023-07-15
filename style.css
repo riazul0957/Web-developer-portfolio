@@ -228,6 +228,10 @@ footer{
 
 /* Mobile Devices */
 @media screen and (max-width:576px){
+    body{
+        margin: 0px;
+        padding: 5px;
+    }
     .header{
         background-image: none;
     }
